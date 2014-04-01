@@ -4,7 +4,7 @@ URL Shortener
 This app will allow a user to shorten a desired URL.
 
 * Homepage has a form for user to fill out: Original URL, Shortened URL, "shorten" button
-* Once shortened, user is redirected to Original URL
+* Once shortened, user is redirected to Original URL when user inputs shortened url
 * Visits to a shortened URL are calculated and displayed on the stats page
 * User has the option of choosing a vanity URL
 * Error messages are received when:
