@@ -9,12 +9,22 @@ class UrlShortApp < Sinatra::Application
 
   post '/' do
     original_url = params[:url_to_shorten]
-    URLS << { original_url => "tny.herokuapp.com/#{URLS.length+1}" }
+    url_id = URLS.length+1
+    shortened_url = "#{request.host_with_port}/#{url_id}"
+    URLS << {
+      :original_url => original_url,
+      :permalink => url_id,
+      :shortened_url => shortened_url,
+    }
     this_path = "/#{URLS.length.to_s}"
     redirect this_path
   end
 
   get '/:id' do
-    erb :show, locals: { :url_index => params[:id].to_i-1, :original_url => URLS[(params[:id].to_i)-1].keys[0] }
+    short_url_index = params[:id].to_i-1
+    erb :show, locals: {
+      :original_url => URLS[short_url_index][:original_url],
+      :shortened_url => URLS[short_url_index][:shortened_url]
+    }
   end
 end
