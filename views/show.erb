@@ -5,14 +5,21 @@
   <link type="text/css" rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-<div class="container">
-  Original URL <%= original_url %>
-</div>
-<div class="container">
-  "Shortened" URL <%= shortened_url %>
-</div>
-<div class="container">
-  <a href="/">'Shorten' another URL</a>
+<div class="display">
+  <table>
+    <tr>
+      <td class="bold">Original URL</td>
+      <td><%= original_url %></td>
+    </tr>
+    <tr>
+      <td class="bold">"Shortened" URL</td>
+      <td><%= shortened_url %></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><a href="/">'Shorten' another URL</a></td>
+    </tr>
+  </table>
 </div>
 </body>
 </html>
