@@ -23,6 +23,6 @@ GitHub Repo - [https://github.com/craftninja/url_shortener](https://github.com/c
 
 Tracker Story - [https://www.pivotaltracker.com/n/projects/1047396](https://www.pivotaltracker.com/n/projects/1047396)
 
-Staging Site - [http://tnybby.herokuapp.com](tnybby.herokuapp.com)
+Staging Site - [http://tnybby.herokuapp.com](http://tnybby.herokuapp.com)
 
-Production Site - [http://tny.herokuapp.com](tny.herokuapp.com)
+Production Site - [http://tny.herokuapp.com](http://tny.herokuapp.com)
