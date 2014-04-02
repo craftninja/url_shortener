@@ -19,7 +19,10 @@ This app will allow a user to shorten a desired URL.
 =======================
 LINKS
 =======================
-[GitHub Repo](https://github.com/craftninja/url_shortener)
-[Tracker Story](https://www.pivotaltracker.com/n/projects/1047396)
-[Staging Site](tnybby.herokuapp.com)
-[Production Site](tny.herokuapp.com)
+GitHub Repo - [https://github.com/craftninja/url_shortener](https://github.com/craftninja/url_shortener)
+
+Tracker Story - [https://www.pivotaltracker.com/n/projects/1047396](https://www.pivotaltracker.com/n/projects/1047396)
+
+Staging Site - [tnybby.herokuapp.com](tnybby.herokuapp.com)
+
+Production Site - [tny.herokuapp.com](tny.herokuapp.com)
